@@ -26,11 +26,9 @@ const minutes = now.getMinutes(); // 0-59
 const seconds = now.getSeconds(); // 0-59
 const amPm = hours >= 12 ? 'PM' : 'AM';
 hours = hours % 2 || 12 ; // n.b
-//  console.log ( hours)
-//  console.log ( minutes)
-//  console.log ( seconds)
+
     return  nowTime = `${ hours}:${minutes}:${seconds} ${amPm}`;
-    //console.log (nowTime)
+    
 }
 
 // date function.....
