@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html  lang="en" class="bg-sky-200" id="htmlall"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A5 Dev</title>
+    <!-- DaisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="mx-18 ">
+    <header class="pt-9">
+        <nav>
+            <div class="navbar bg-base-100 rounded-2xl py-9">
+                <div class="flex-1">
+                  <a class="btn btn-ghost text-xl"><img src="assets/logo.png" alt="">
+                    <h1 class="text-3xl">Dev<Span class="font-bold">Board</Span></h1></a>
+                </div>
+                <div class="flex-none">
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                      <div class=" indicator mr-32">
+                    
+                        <img src="assets/checkbox.png" alt="">
+                    
+                        <h1 id="point" class="text-2xl ml-5 font-bold">23</h1>
+                       
+                      </div>
+                    </div>
+                    <div
+                      tabindex="0"
+                      class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
+                     
+                    </div>
+                  </div>
+                  <!-- them -->
+                  <div id="them" class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+                      <div class="w-10">
+                        <img src="assets/theme-btn.png" alt="">
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main class=" pt-6 grid  grid-cols-[70%_30%] gap-6 ">
+        <!-- Task section -->
+        <div class=" bg-white rounded-xl">
+        <section class="   flex  items-center xy-10 py-14 justify-around ">
+            <div class=" bg-slate-200 h-36 w-52 flex border rounded-2xl px-6  items-center gap-6   ">
+                 <img src="assets/checkbox.png" alt=""> 
+                <div>
+                <h1 class="text-slate-700">Task Assigned</h1>
+                <p id="Assingd" class="font-bold text-2xl">06</p>
+            </div>
+                
+            </div>
+            <div id="blog-page" class="bg-gradient-to-r from-blue-600 to-blue-400 h-36 w-84 flex border rounded-2xl px-6  items-center    ">
+                <img src="assets/board.png" alt=""> 
+               <div>
+               <h1 class="text-white">Discover Something New Today!</h1>
+               <p></p>
+           </div>
+               
+           </div>
+           <div class=" bg-slate-200 h-36 w-52  flex border rounded-2xl px-6  items-center gap-5   ">
+            <img src="assets/calender.png" alt=""> 
+           <div>
+           <h1 id="dateTime"> </h1>
+           
+       </div>
+           
+       </div>
+        </section>
+        <section class="mx-10 mb-7 grid grid-cols-3 grid-rows-2 gap-4">
+            <!-- card 1 -->
+            <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-17 rounded-md"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Fix Mobile Button Issue </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit1" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card2 -->
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-17 rounded-md"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Add Dark Mode </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit2" class="btn bg-blue-500">Completed
+
+                    </button>
+                
+                  </div>
+                </div>
+              </div>
+              <!-- card3 -->
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-17 rounded-md"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Optimize  Home page </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit3" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card4 -->
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin w-17 rounded-md bg-white"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Add new emoji 🤲 </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit4" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card5 -->
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin  w-17 rounded-md bg-white"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Integrate OpenAI API  </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit5" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card6 -->
+              <div class="card  bg-slate-200 text-primary-content w-72 rounded-xl">
+                <div class="card-body">
+                    <span class=" text-black font-thin bg-white w-17 rounded-md"> Shopepase</span>
+                  <h2 class="text-xl text-black font-bold">Improve Job searching  </h2>
+                  <p class=" text-black font-thin bg-white px-4 ">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                  <div class="card-actions justify-around py-8">
+                    <div>
+                        <p class=" text-black font-thin"> deadline</p>
+                        <p class=" text-black font-medium">21 March 2025</p>
+                    </div>
+                    <button id="submit6" class="btn bg-blue-500">Completed</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </div>
+    <!-- Activity section -->
+
+        <section class="bg-white pt-9 px-12 rounded-2xl ">
+            <div class="mx-auto  ">
+            <div class="  flex gap-2">
+               <img src="assets/activity.png" alt=""> 
+               <h1 class="text-xl"> Activity Log</h1>
+            </div >
+            <button id="clear-button" class="btn bg-blue-400 my-6 "> Clear History</button>
+            <div id="comment">
+
+            </div>
+
+        </div>
+        </section>
+    </main>
+    
+    <script>
+      // set multiple color 
+      document.getElementById("them").addEventListener("click",function(event){
+        
+        
+        const randomColor =`#${Math.floor(Math.random() * 876455986 ).toString(16)  }`;
+       document.getElementById("htmlall").style.backgroundColor = randomColor;
+       
+      })
+
+    //linkup to blog page
+       document.getElementById ("blog-page").addEventListener("click",function(event){
+    document.location.href = "qus.html";
+    })
+    </script>
+    <script src="javascript/utilities.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/backhome.js"></script>
+</body>
+</html>

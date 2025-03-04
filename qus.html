@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    
+</head>
+<body class="bg-white">
+    <header class="mx-7 mt-6">
+        <div class="navbar bg-base-200 shadow-sm rounded-2xl px-6 py-5 ">
+            <div class="flex-1">
+              <a class="btn btn-ghost text-xl"><img src="./A5-Dev-Board/assets/logo.png" alt=""> <h1>DevBoard</h1> </a>
+            </div>
+            <div class="flex-none">
+              <button id="back-home" class="btn bg-blue-400 ">
+                Back to Desk 
+              </button>
+            </div>
+          </div>
+    </header>
+    <main>
+        <h1 class="text-center text-4xl font-bold  mt-4 ">Blog</h1>
+     <section class="my-8"> 
+        <div class="bg-slate-50 py-5 px-5  ">
+            <h1 class="font-bold text-2xl"><b>Question-1: </b> What are the different ways to select an element in the DOM? </h1>
+            <hr>
+        
+             <p class=" text-xl"> Answer : we can access html eelemnt by targeting id , queryselector ,class, tag and many more </p>
+        </div>
+        <div class="bg-slate-50 py-5 px-5  ">
+            <h1 class="font-bold text-2xl"><b>Question-2: </b> What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <hr>
+        
+             <p class=" text-xl"> Answer : <br> innerHTML: When you need to handle or manipulate HTML content, including tags. <br>
+              innerText: When you want the visible text (what the user sees).
+              <br>
+              textContent: When you need raw text (ignoring tags and visibility). </p>
+        </div>
+        <div class="bg-slate-50 py-5 px-5  ">
+            <h1 class="font-bold text-2xl"><b>Question-3: </b>  What is event delegation in the DOM? </h1>
+            <hr>
+        
+             <p class=" text-xl"> Answer : Event Delegation is a technique where you attach a single event listener to a parent element to manage events for its child elements. Instead of adding listeners to each child, </p>
+        </div>
+        <div class="bg-slate-50 py-5 px-5  ">
+            <h1 class="font-bold text-2xl"><b>Question-4: </b>  What is event bubbling in the DOM? </h1>
+            <hr>
+        
+             <p class=" text-xl"> Answer :Event bubbling is a mechanism in the DOM where an event triggered on a child element propagates (or "bubbles up") through its ancestors, eventually reaching the root of the DOM tree.
+              
+            
+            
+            
+            
+            
+            
+            
+            
+    </p>
+        </div>
+        <div class="bg-slate-50 py-5 px-5  ">
+            <h1 class="font-bold text-2xl"><b>Question-5: </b>   How do you create, add, and remove elements using JavaScript? </h1>
+            <hr>
+        
+             <p class=" text-xl"> Answer : Create an element: document.createElement("tagName")
+Add an element: parent.appendChild(newElement) or parent.append(newElement)
+Remove an element: parent.removeChild(childElement) or element.remove() </p>
+        </div>
+     </section>
+    </main>
+     <!-- <script> 
+    // //  <document.getElementById("back-home").addEventListener("click", function(event){
+    // //     console.log ("hi")
+    // //      document.location.href ="index.html" 
+       
+    //    })
+    
+       </script> -->
+    
+     <script src="javascript/backhome.js"></script>
+</body>
+</html>
